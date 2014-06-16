@@ -14,7 +14,6 @@
 module.exports = function(grunt) {
 
   // Internal lib.
-  var chalk = require('chalk');
 
   grunt.registerMultiTask('bumtemp', 'Backbone, Underscore, Marionette Template Engine wraps html files in script tags and concats them to one file.', function() {
     // Merge task-specific and/or target-specific options with these defaults.
@@ -62,7 +61,7 @@ module.exports = function(grunt) {
       grunt.file.write(f.dest, src);
 
       // Print a success message.
-      grunt.log.writeln('File ' + chalk.cyan(f.dest) + ' created.');
+      grunt.log.writeln('File ' + f.dest + ' created.');
     });
   });
 
