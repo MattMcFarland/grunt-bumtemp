@@ -42,7 +42,7 @@ module.exports = function(grunt) {
         var src = grunt.file.read(filepath);
         var filename = filepath.replace(/^.*[\\\/]/, '');
         var filen = filename.split('.',1)[0];
-        var comment = '\n<!-- @grunt-bumtemp: Template from '+filen+ ' -->\n';
+        var comment = '\n<!-- @grunt-bumtemp: Template from '+filepath+ ' -->\n';
         var header = comment + '<script type="text/template" id="'+filen+'">\n\n';
         var footer = '\n</script>\n<!-- /#'+filen+'  :@grunt-bumtemp -->';
 
