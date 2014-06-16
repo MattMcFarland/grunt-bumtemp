@@ -49,7 +49,7 @@ grunt.initConfig({
 ```
 
 #### Result:
-```HTML
+```
   <!-- grunt-bumtemp generated file -->
 
   <!-- @grunt-bumtemp: Template from content -->

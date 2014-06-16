@@ -1,9 +1,9 @@
 {
   "name": "grunt-bumtemp",
   "version": "0.0.1",
-  "description": "Backbone, Underscore, and Marionette templaator",
-  "homepage": "blog.mattmcfarland.com",
-  "repository": "?",
+  "description": "Backbone, Underscore, and Marionette templator",
+  "homepage": "https://github.com/MattMcFarland/grunt-bumtemp",
+  "repository": "https://github.com/MattMcFarland/grunt-bumtemp",
   "author": {
     "name": "Matt McFarland",
     "email": "contact@mattmcfarland.com",
