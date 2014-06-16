@@ -43,7 +43,7 @@ module.exports = function(grunt) {
         var filename = filepath.replace(/^.*[\\\/]/, '');
         var filen = filename.split('.',1)[0];
         var comment = '\n<!-- @grunt-bumtemp: Template from '+filepath+ ' -->\n';
-        var header = comment + '<script type="text/template" id="'+filen+'">\n\n';
+        var header = comment + '<script type="text/template" id="'+filen+'">\n';
         var footer = '\n</script>\n<!-- /#'+filen+'  :@grunt-bumtemp -->';
 
         // Process files as templates if requested.
