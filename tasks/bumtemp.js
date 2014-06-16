@@ -14,7 +14,6 @@
 module.exports = function(grunt) {
 
   // Internal lib.
-  var comment = require('./lib/comment').init(grunt);
   var chalk = require('chalk');
 
   grunt.registerMultiTask('bumtemp', 'Backbone, Underscore, Marionette Template Engine wraps html files in script tags and concats them to one file.', function() {

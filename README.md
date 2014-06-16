@@ -1,6 +1,6 @@
 # grunt-bumtemp
 
-> Backbone, Underscore, and Marionette template engine.  Combines a bunch of html files, then creates one html file with each wrapped in <script type="text-template" id=FILENAME(without ext)></script>
+> Backbone, Underscore, Marionette Template Engine wraps html files in script tags and concats them to one file.
 
 ## Getting Started
 This plugin requires Grunt.
@@ -49,7 +49,7 @@ grunt.initConfig({
 ```
 
 #### Result:
-```
+```xml
   <!-- grunt-bumtemp generated file -->
 
   <!-- @grunt-bumtemp: Template from content -->
