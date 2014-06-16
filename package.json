@@ -1,6 +1,6 @@
 {
   "name": "grunt-bumtemp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Backbone, Underscore, Marionette Template Engine wraps html files in script tags and concats them to one file.",
   "homepage": "https://github.com/MattMcFarland/grunt-bumtemp",
   "repository": "https://github.com/MattMcFarland/grunt-bumtemp",
@@ -24,7 +24,8 @@
     "grunt-contrib-internal": "~0.4.2",
     "grunt": "~0.4.0",
     "jshint-stylish": "~0.1.5",
-    "load-grunt-tasks": "~0.3.0"
+    "load-grunt-tasks": "~0.3.0",
+    "chalk": "*"
   },
   "scripts": {
     "test": "grunt test"
