@@ -86,7 +86,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
-0.1.2 : Remove extra line in build output.
+0.1.3 : Remove extra line in build output.
 
 0.1.1 : Shows entire path in comment section.
 
